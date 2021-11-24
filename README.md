@@ -5,6 +5,5 @@ Site de pagina unica
 
 - Font Awaesome 
 - Bootstrap 5
-- Bootstrap
 - AOS animate
 - JQuery Ligthbox 
