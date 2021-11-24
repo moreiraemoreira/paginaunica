@@ -1,0 +1,38 @@
+
+body{
+    margin-top: 50px;   
+}
+
+
+.bg-newcor{
+    background-color: rgba(82, 80, 73, 0.952);
+}   
+
+#carousel-destaques{
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.titulo {
+
+    border-bottom: 5px solid rgba(187, 65, 65, 0.651) ;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+   .carousel-caption  h4, .carousel-caption p  {
+
+    color: rgba(216, 216, 213, 0.541);
+     text-shadow: 2px 2px 0px rgb(231, 227, 227);
+     background-color: rgba(36, 34, 34, 0.671);
+     width: 70%;
+     margin: 0 auto;
+
+}
+
+   #Planos .card-header { 
+
+    background-color: rgba(10, 10, 8, 0.267);
+}
+
