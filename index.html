@@ -346,20 +346,55 @@
           
             </div>
 
-            
-
-
             <!-- formulario de cadastro -->
 
-            <div  id="cadastro"  class="mt-5">
-              <h2 class="text-cemter mb-3 titulo" >Cadastre-se</h2>
+            <div  id="cadastro"  class="mt-5" >
+                 <h2 class="text-cemter mb-3 titulo" >Cadastre-se</h2>
               <form id="frm-cadastro"  action="" method="POST" enctype="multipart/form-data" >
-              <input type="text" class="form-control" name="nome" placeholder="Nome"  required >
-              <input type="email" >
+              <input type="text" class="form-control mb-3" name="nome" placeholder="Nome"  required >
+              <input type="email" class="form-control mb-3  " name="email" placeholder="digite um e-mail valido"  required >
+                 <p> Idade: <span id="info-idade"></span></p>
+              <input type="range" class="form-range" name="Idade" id="Idade" min="12" max="115" value="20">  
+                 <p>Sexo:</p>
+              <input type="radio" name="sexo" value="Femenino" class="form-check-input"> Femenino <br>
+              <input type="radio" name="sexo" value="Masculino" class="form-check-input"> Masculino <br>
+                
+              <p>Atividades com laser</p>
+              <input type="checkbox" name="laser []" value="Cinema" class="form-check-input">  cinema <br>
+              <input type="checkbox" name="laser []" value="Futebol" class="form-check-input">  Futebol <br>
+              <input type="checkbox" name="laser []" value="Musica" class="form-check-input">  Musica <br>
+              <input type="checkbox" name="laser []" value="Restaurantes" class="form-check-input">  Restaurantes <br>
+              <input type="checkbox" name="laser []" value="Jogar" class="form-check-input">  Jogar <br>
+              <input type="checkbox" name="laser []" value="Viajar" class="form-check-input">  Viajar
+
+
+                <p>Foto de Perfil: (opcional)</p>
+
+                <input type="file" name="foto" id="foto" class="form-control"> <br>
+
+                <p>Qual seu estado?</p>
+                <select name="estado" id="estado" class="form-select"> 
+                <option>Selecione</option>
+                <option value="Acre">Acre</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                </select>
+
+
               </form>
+              <br>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class="form-control">
+                <br>
+                <input type="submit" value="Enviar" class="btn btn-primary"> <br>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.7168512399376!2d-45.861094885029395!3d-23.180532184873318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bc8557f3105%3A0x26bc31b7142cc60f!2sR.%20Saigiro%20Nakamura%2C%20400%20-%20Vila%20Industrial%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012220-280!5e0!3m2!1spt-BR!2sbr!4v1637765182424!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
             </div>
 
-
+            <p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p>
+            <p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p>
+            <p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p>
+            <p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p><p></p> <br> <p></p>
           <!-- final formulario de cadatro-->
 
 
