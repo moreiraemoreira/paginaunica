@@ -1,7 +1,7 @@
 # Pagina Unica
 Site de pagina unica
 
-##  Blibliotecas utilizaddas..
+##  Blibliotecas utilizadas..
 
 - Font Awaesome 
 - Bootstrap 5
